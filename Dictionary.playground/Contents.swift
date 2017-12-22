@@ -61,9 +61,10 @@ for (key, value) in meiguo {
     
     if key == "nanjing" {
         print("Georgia has the following zip codes: [\(outputFormat)")
-    } else {
+    } else if key == "yangzhou" {
         print("                                      \(outputFormat)")
+    } else {
+        print("                                      \(outputFormat)]")
     }
 }
-
 
